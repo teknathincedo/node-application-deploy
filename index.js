@@ -7,10 +7,9 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
     
     return res.json(
-        { name: 'Tinku',
-            dad: 'Ram Prasad',
-            brother: 'Thule',
-            jiju: ['Anil' , 'Shash'],
+        { name: 'Teknath',
+            age: 22,
+            grade: 'A',
             timestamp: new Date().toISOString()
          });
 });
