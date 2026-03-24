@@ -7,7 +7,10 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
     
     return res.json(
-        { message: 'Hello Docker',
+        { name: 'Tinku',
+            dad: 'Ram Prasad',
+            brother: 'Thule',
+            jiju: ['Anil' , 'Shash'],
             timestamp: new Date().toISOString()
          });
 });
