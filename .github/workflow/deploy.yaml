@@ -1,0 +1,4 @@
+name: Deploy Node App on OnRender
+on:
+  push:
+    branches: [main]
